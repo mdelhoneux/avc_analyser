@@ -2,7 +2,8 @@
 
 Code for reproducing the experiments in the following paper:  
 What Should/Do/Can LSTMs Learn When Parsing Auxiliary Verb Constructions?
-by Miryam de Lhoneux, Sara Stymne and Joakim Nivre
+by Miryam de Lhoneux, Sara Stymne and Joakim Nivre  
+available on [arXiv](https://arxiv.org/abs/1907.07950)
 
 # Training the parser
 
