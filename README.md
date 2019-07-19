@@ -5,15 +5,20 @@ What Should/Do/Can LSTMs Learn When Parsing Auxiliary Verb Constructions?
 by Miryam de Lhoneux, Sara Stymne and Joakim Nivre  
 available on [arXiv](https://arxiv.org/abs/1907.07950)
 
-# Training the parser
+#### Training the parser
 
 The uuparser folder contains a modified version of [UUParser](https://github.com/UppsalaNLP/uuparser) where we save intermediate representations in different parts of the network.
 See that repository for more details on how to train models.
 
-# AVC transformation
+#### Required software
+
+* Python 2.7 interpreter
+* [DyNet library](https://github.com/clab/dynet/tree/master/python)
+
+#### AVC transformation
 To transform the representation of AVCs, see, [this repository](https://github.com/mdelhoneux/oDETTE).
 
-# AVC analysis
+#### AVC analysis
 
 First, the config.py file needs to be modified to specify the path of trained models as well as datasets.  
 For running everything from data collection to the diagnostic classifiers, there is one main script: avc_analyser.py Some options are relevant to all steps:
